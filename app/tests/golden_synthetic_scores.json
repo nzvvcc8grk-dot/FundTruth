@@ -1,0 +1,152 @@
+{
+ "a0": {
+  "rel": "high",
+  "score": 29.45273631840796,
+  "subs": {
+   "autocorrelation": 4.975124378109452,
+   "factor_regression": 19.90049751243781,
+   "near_zero": 100.0,
+   "peer_anomaly": 9.950248756218905
+  }
+ },
+ "a1": {
+  "rel": "high",
+  "score": 34.975124378109456,
+  "subs": {
+   "autocorrelation": 4.975124378109452,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 9.950248756218905
+  }
+ },
+ "a2": {
+  "rel": "high",
+  "score": 34.975124378109456,
+  "subs": {
+   "autocorrelation": 4.975124378109452,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 9.950248756218905
+  }
+ },
+ "b0": {
+  "rel": "high",
+  "score": 30.18413921524613,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 0.18413921524612864,
+   "peer_anomaly": 100.0
+  }
+ },
+ "b1": {
+  "rel": "high",
+  "score": 30.30744531661194,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 0.3074453166119392,
+   "peer_anomaly": 100.0
+  }
+ },
+ "b2": {
+  "rel": "high",
+  "score": 30.127057083234618,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 0.12705708323461634,
+   "peer_anomaly": 49.75124378109453
+  }
+ },
+ "c0": {
+  "rel": "high",
+  "score": 39.950248756218905,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 9.950248756218905,
+   "near_zero": 100.0,
+   "peer_anomaly": 100.0
+  }
+ },
+ "c1": {
+  "rel": "high",
+  "score": 39.950248756218905,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 9.950248756218905,
+   "near_zero": 100.0,
+   "peer_anomaly": 100.0
+  }
+ },
+ "c2": {
+  "rel": "high",
+  "score": 39.950248756218905,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 9.950248756218905,
+   "near_zero": 100.0,
+   "peer_anomaly": 19.90049751243781
+  }
+ },
+ "h_bond0": {
+  "rel": "high",
+  "score": 89.5587985225242,
+  "subs": {
+   "autocorrelation": 65.19599507508067,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 100.0
+  }
+ },
+ "h_bond1": {
+  "rel": "high",
+  "score": 90.77504515845285,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 60.77504515845285,
+   "peer_anomaly": 100.0
+  }
+ },
+ "h_bond2": {
+  "rel": "high",
+  "score": 100.0,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 100.0
+  }
+ },
+ "h_equity0": {
+  "rel": "high",
+  "score": 100.0,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 100.0
+  }
+ },
+ "h_equity1": {
+  "rel": "high",
+  "score": 100.0,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 100.0
+  }
+ },
+ "h_equity2": {
+  "rel": "high",
+  "score": 69.80099502487562,
+  "subs": {
+   "autocorrelation": 100.0,
+   "factor_regression": 100.0,
+   "near_zero": 100.0,
+   "peer_anomaly": 39.80099502487562
+  }
+ }
+}

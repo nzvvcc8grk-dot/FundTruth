@@ -1,0 +1,8 @@
+label,flag_autocorrelation,flag_factor_regression,flag_near_zero,flag_peer_anomaly,flag_benford
+a_smoothed,100.0,41.3,3.7,100.0,25.7
+b_nearzero,2.0,6.0,100.0,3.7,23.0
+c_closet,3.7,100.0,3.3,7.3,37.3
+d_control,2.3,4.0,1.7,5.0,32.3
+honest_bond,2.3,2.3,3.7,4.7,31.0
+honest_equity,2.7,4.0,3.0,4.7,35.0
+honest_multi-asset,2.7,4.7,4.7,2.3,25.7

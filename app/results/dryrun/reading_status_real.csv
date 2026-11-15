@@ -1,0 +1,15 @@
+source,reading,status,n_funds,pct
+sample,price_regularity,nothing unusual,71,88.75
+sample,price_regularity,worth a look,5,6.25
+sample,price_regularity,unusual,4,5.0
+sample,style,nothing unusual,80,100.0
+sample,alpha,nothing unusual,59,73.75
+sample,alpha,worth a look,21,26.25
+sample,risk_shape,descriptive,80,100.0
+sample,distribution,nothing unusual,76,95.0
+sample,distribution,not applicable,2,2.5
+sample,distribution,worth a look,1,1.25
+sample,distribution,unusual,1,1.25
+sample,peers,nothing unusual,67,83.75
+sample,peers,worth a look,7,8.75
+sample,peers,unusual,6,7.5

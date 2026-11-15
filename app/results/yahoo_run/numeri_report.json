@@ -1,0 +1,368 @@
+{
+ "universe.n_funds": {
+  "figure": 40,
+  "unit": "funds",
+  "source": "universe_summary.csv",
+  "note": ""
+ },
+ "universe.n_scored": {
+  "figure": 40,
+  "unit": "funds",
+  "source": "findings_by_fund.csv",
+  "note": ""
+ },
+ "universe.n_dead": {
+  "figure": 0,
+  "unit": "funds",
+  "source": "findings_by_fund.csv",
+  "note": "No dead or merged fund in this universe: only funds that still exist are observed, so past failures are missing and flag rates are likely understated for the problems that kill funds."
+ },
+ "universe.n_groups": {
+  "figure": 3,
+  "unit": "groups",
+  "source": "groups.csv",
+  "note": ""
+ },
+ "universe.n_groups_below_minimum": {
+  "figure": 3,
+  "unit": "groups",
+  "source": "groups.csv",
+  "note": "minimum 20 funds"
+ },
+ "universe.group.bond.US.n_funds": {
+  "figure": 14,
+  "unit": "funds",
+  "source": "groups.csv",
+  "note": "FALLBACK: only 14 funds (< 20); peers are all bond funds regardless of region (n=14); still < 20: the engine pools across asset classes"
+ },
+ "universe.group.equity.US.n_funds": {
+  "figure": 16,
+  "unit": "funds",
+  "source": "groups.csv",
+  "note": "FALLBACK: only 16 funds (< 20); peers are all equity funds regardless of region (n=16); still < 20: the engine pools across asset classes"
+ },
+ "universe.group.multi-asset.US.n_funds": {
+  "figure": 10,
+  "unit": "funds",
+  "source": "groups.csv",
+  "note": "FALLBACK: only 10 funds (< 20); peers are all multi-asset funds regardless of region (n=10); still < 20: the engine pools across asset classes"
+ },
+ "universe.flag_pct.autocorrelation": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "flag_rates_real.csv",
+  "note": "0/40; 95% CI 0.0-8.8"
+ },
+ "universe.flag_pct.factor_regression": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "flag_rates_real.csv",
+  "note": "0/40; 95% CI 0.0-8.8"
+ },
+ "universe.flag_pct.near_zero": {
+  "figure": 7.6923,
+  "unit": "%",
+  "source": "flag_rates_real.csv",
+  "note": "3/39; 95% CI 2.7-20.3"
+ },
+ "universe.flag_pct.peer_anomaly": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "flag_rates_real.csv",
+  "note": "0/40; 95% CI 0.0-8.8"
+ },
+ "universe.flag_pct.any_of_the_four": {
+  "figure": 7.5,
+  "unit": "%",
+  "source": "flag_rates_real.csv",
+  "note": "3/40; 95% CI 2.6-19.9"
+ },
+ "universe.flag_pct.any.live": {
+  "figure": 7.5,
+  "unit": "%",
+  "source": "flag_rates_real.csv",
+  "note": "n=40"
+ },
+ "universe.injection.unmodified.detection_pct": {
+  "figure": 7.5,
+  "unit": "%",
+  "source": "injection_real.csv",
+  "note": "3/40; target any of the four"
+ },
+ "universe.injection.smoothing_s0.3.detection_pct": {
+  "figure": 32.5,
+  "unit": "%",
+  "source": "injection_real.csv",
+  "note": "13/40; target autocorrelation"
+ },
+ "universe.injection.smoothing_s0.6.detection_pct": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "injection_real.csv",
+  "note": "40/40; target autocorrelation"
+ },
+ "universe.injection.losses_shifted_above_zero.detection_pct": {
+  "figure": 92.5,
+  "unit": "%",
+  "source": "injection_real.csv",
+  "note": "37/40; target near_zero"
+ },
+ "universe.pct_score_below_50": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "findings_by_fund.csv",
+  "note": ""
+ },
+ "universe.pct_reference_inadequate": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "findings_by_fund.csv",
+  "note": "funds scored with a reference < 20"
+ },
+ "three_funds.IJR.priority_index": {
+  "figure": 100.0,
+  "unit": "0-100",
+  "source": "three_funds.csv",
+  "note": "US exchange-traded equity ETF"
+ },
+ "three_funds.IJR.headline": {
+  "figure": "Nothing unusual in the checks that apply",
+  "unit": "",
+  "source": "three_funds.csv",
+  "note": "US exchange-traded equity ETF"
+ },
+ "three_funds.missing.European equity fund": {
+  "figure": "no fund matches",
+  "unit": "",
+  "source": "three_funds.csv",
+  "note": "pick IDs with --three"
+ },
+ "three_funds.missing.Appraised-NAV fund": {
+  "figure": "no fund matches",
+  "unit": "",
+  "source": "three_funds.csv",
+  "note": "pick IDs with --three"
+ },
+ "synthetic.a_smoothed.pct_high_concern": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.a_smoothed.mean_score": {
+  "figure": 27.9,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.b_nearzero.pct_high_concern": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.b_nearzero.mean_score": {
+  "figure": 30.6,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.c_closet.pct_high_concern": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.c_closet.mean_score": {
+  "figure": 32.0,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.d_control.pct_high_concern": {
+  "figure": 5.0,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.d_control.mean_score": {
+  "figure": 94.6,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.honest_bond.pct_high_concern": {
+  "figure": 3.7,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.honest_bond.mean_score": {
+  "figure": 94.9,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.honest_equity.pct_high_concern": {
+  "figure": 5.7,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.honest_equity.mean_score": {
+  "figure": 94.3,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.honest_multi-asset.pct_high_concern": {
+  "figure": 6.3,
+  "unit": "%",
+  "source": "validation_summary.csv",
+  "note": "n=300 simulated series, score < 50"
+ },
+ "synthetic.honest_multi-asset.mean_score": {
+  "figure": 93.0,
+  "unit": "0-100",
+  "source": "validation_summary.csv",
+  "note": ""
+ },
+ "synthetic.false_positive_pct.autocorrelation": {
+  "figure": 2.5,
+  "unit": "%",
+  "source": "flag_rates_per_test.csv",
+  "note": "mean over simulated honest series"
+ },
+ "synthetic.false_positive_pct.factor_regression": {
+  "figure": 3.75,
+  "unit": "%",
+  "source": "flag_rates_per_test.csv",
+  "note": "mean over simulated honest series"
+ },
+ "synthetic.false_positive_pct.near_zero": {
+  "figure": 3.275,
+  "unit": "%",
+  "source": "flag_rates_per_test.csv",
+  "note": "mean over simulated honest series"
+ },
+ "synthetic.false_positive_pct.peer_anomaly": {
+  "figure": 4.175,
+  "unit": "%",
+  "source": "flag_rates_per_test.csv",
+  "note": "mean over simulated honest series"
+ },
+ "synthetic.false_positive_pct.benford": {
+  "figure": 31.0,
+  "unit": "%",
+  "source": "flag_rates_per_test.csv",
+  "note": "mean over simulated honest series"
+ },
+ "synthetic.power.smoothing_0.0.flag_pct": {
+  "figure": 2.0,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.power.smoothing_0.1.flag_pct": {
+  "figure": 5.5,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.power.smoothing_0.2.flag_pct": {
+  "figure": 23.5,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.power.smoothing_0.3.flag_pct": {
+  "figure": 63.5,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.power.smoothing_0.4.flag_pct": {
+  "figure": 93.0,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.power.smoothing_0.5.flag_pct": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.power.smoothing_0.6.flag_pct": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "power_curve.csv",
+  "note": ""
+ },
+ "synthetic.closet.0.factor_flag_pct": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "c_closet, expense unknown"
+ },
+ "synthetic.closet.1.factor_flag_pct": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "c_closet, expense 0.30% (below median)"
+ },
+ "synthetic.closet.2.factor_flag_pct": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "c_closet, expense 1.00% (above median)"
+ },
+ "synthetic.closet.3.factor_flag_pct": {
+  "figure": 6.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "d_control (honest), expense 1.00%"
+ },
+ "synthetic.closet.4.factor_flag_pct": {
+  "figure": 100.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "c_closet, expense 1.00%, declared benchmark = market"
+ },
+ "synthetic.closet.5.factor_flag_pct": {
+  "figure": 0.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "c_closet, expense unknown, declared benchmark = market"
+ },
+ "synthetic.closet.6.factor_flag_pct": {
+  "figure": 3.0,
+  "unit": "%",
+  "source": "closet_rule_validation.csv",
+  "note": "d_control (honest), expense 1.00%, declared benchmark = market"
+ },
+ "parameters.P_SCALE": {
+  "figure": 0.1,
+  "unit": "",
+  "source": "fundtruth.py",
+  "note": "provisional"
+ },
+ "parameters.FLAG_P": {
+  "figure": 0.05,
+  "unit": "",
+  "source": "fundtruth.py",
+  "note": "provisional"
+ },
+ "parameters.cap": {
+  "figure": 30,
+  "unit": "points",
+  "source": "fundtruth.py",
+  "note": "provisional"
+ },
+ "parameters.retuned_on_these_data": {
+  "figure": false,
+  "unit": "",
+  "source": "real_validation.py",
+  "note": "no retuning; split not needed"
+ }
+}

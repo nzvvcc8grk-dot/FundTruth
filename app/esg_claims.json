@@ -1,0 +1,226 @@
+{
+  "_about": "FundTruth claim register (ESG promises module). Each fund's ESG promises were extracted with an LLM from the issuer's public fund page on 2026-11-13. 'quotes' are verbatim from the page; 'fossil_promise' is our structured reading of those quotes: 'full' = the fund promises to exclude oil, gas and coal producers or owners of their reserves; 'reduced' = it promises lower carbon exposure than the market; 'partial' = it excludes only thermal coal and/or oil sands; 'none' = no fossil promise. Expense ratios are those shown on the cited pages on that date. UK-listed funds (London Stock Exchange) are analysed in GBP: USD- and EUR-quoted series are converted with the GBP/USD and EUR/GBP rates.",
+  "as_of": "2026-11-13",
+  "energy_proxies": {
+    "US": "XLE",
+    "Global": "IXC",
+    "Global_GBP": "IXC_GBP"
+  },
+  "funds": {
+    "SPYX": {
+      "name": "SPDR S&P 500 Fossil Fuel Reserves Free ETF",
+      "issuer": "State Street",
+      "index": "S&P 500 Fossil Fuel Reserves Free Index",
+      "parent": "SPY",
+      "parent_name": "SPDR S&P 500 ETF (same parent index, no exclusions)",
+      "energy_proxy": "XLE",
+      "expense_ratio": 0.002,
+      "parent_expense_ratio": 0.000945,
+      "inception": "2015-11-30",
+      "fossil_promise": "full",
+      "exclusions": [
+        "fossil fuel reserves: thermal coal",
+        "other non-metallurgical coal",
+        "oil reserves",
+        "natural gas reserves",
+        "shale gas reserves"
+      ],
+      "quotes": [
+        "eliminating companies that own fossil fuel reserves from the S&P 500",
+        "fossil fuel reserves are defined as (i) thermal coal reserves, (ii) other non-metallurgical coal reserves (iii) conventional or unconventional oil reserves (iv) natural gas reserves, (v) shale gas reserves"
+      ],
+      "source": "https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-fossil-fuel-reserves-free-etf-spyx",
+      "parent_source": "https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-500-etf-trust-SPY"
+    },
+    "EFIV": {
+      "name": "SPDR S&P 500 ESG ETF",
+      "issuer": "State Street",
+      "index": "S&P 500 Scored & Screened Index",
+      "parent": "SPY",
+      "parent_name": "SPDR S&P 500 ETF",
+      "energy_proxy": "XLE",
+      "expense_ratio": 0.001,
+      "parent_expense_ratio": 0.000945,
+      "inception": "2020-07-27",
+      "fossil_promise": "partial",
+      "exclusions": [
+        "UN Global Compact non-compliance",
+        "small arms",
+        "tobacco",
+        "thermal coal",
+        "controversial weapons",
+        "military contracting",
+        "oil sands"
+      ],
+      "quotes": [
+        "EFIV is designed to track an index that is designed to select S&P 500 firms meeting certain sustainability criteria",
+        "Companies that do not act in accordance with the United Nations Global Compact principles",
+        "small arms, tobacco, thermal coal, controversial weapons, military contracting and oil sands are excluded."
+      ],
+      "source": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-esg-etf-efiv",
+      "parent_source": "https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-500-etf-trust-SPY"
+    },
+    "ESGU": {
+      "name": "iShares ESG Aware MSCI USA ETF",
+      "issuer": "BlackRock iShares",
+      "index": "MSCI USA Extended ESG Focus Index",
+      "parent": "IVV",
+      "parent_name": "iShares Core S&P 500 ETF (closest low-cost US large-cap index fund; not the same index)",
+      "energy_proxy": "XLE",
+      "expense_ratio": 0.0015,
+      "parent_expense_ratio": 0.0003,
+      "inception": "2016-12-01",
+      "fossil_promise": "partial",
+      "exclusions": [
+        "civilian firearms",
+        "controversial weapons",
+        "tobacco",
+        "thermal coal",
+        "oil sands"
+      ],
+      "quotes": [
+        "seeks to track an index of large- and mid-cap U.S. companies with positive environmental, social, and governance characteristics",
+        "civilian firearms, controversial weapons, tobacco, thermal coal and oil sands"
+      ],
+      "source": "https://www.blackrock.com/us/individual/products/286007/ishares-esg-aware-msci-usa-etf",
+      "parent_source": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf"
+    },
+    "SUSA": {
+      "name": "iShares ESG Optimized MSCI USA ETF (formerly MSCI USA ESG Select)",
+      "issuer": "BlackRock iShares",
+      "index": "MSCI USA Extended ESG Select Index",
+      "parent": "IVV",
+      "parent_name": "iShares Core S&P 500 ETF (closest low-cost US large-cap index fund; not the same index)",
+      "energy_proxy": "XLE",
+      "expense_ratio": 0.0025,
+      "parent_expense_ratio": 0.0003,
+      "inception": "2005-01-24",
+      "fossil_promise": "partial",
+      "exclusions": [
+        "alcohol",
+        "gambling",
+        "tobacco",
+        "several categories of weapons",
+        "nuclear power",
+        "fossil fuel extraction",
+        "thermal coal power"
+      ],
+      "quotes": [
+        "seeks to track a sector-neutral index of U.S. large- and mid-cap companies",
+        "extensive screens on controversial activities"
+      ],
+      "notes": "The page lists fossil fuel extraction among the screened activities; the index is also sector-neutral, which keeps an energy-sector weight close to the market's.",
+      "source": "https://www.ishares.com/us/products/239692/ishares-esg-optimized-msci-usa-etf",
+      "parent_source": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf"
+    },
+    "ESGV": {
+      "name": "Vanguard ESG U.S. Stock ETF",
+      "issuer": "Vanguard",
+      "index": "FTSE US All Cap Choice Index",
+      "parent": "VTI",
+      "parent_name": "Vanguard Total Stock Market ETF (closest low-cost US total-market index fund; not the same index)",
+      "energy_proxy": "XLE",
+      "expense_ratio": 0.0009,
+      "parent_expense_ratio": 0.0003,
+      "inception": "2018-09-18",
+      "fossil_promise": "full",
+      "exclusions": [
+        "adult entertainment",
+        "alcohol",
+        "tobacco",
+        "cannabis",
+        "gambling",
+        "weapons",
+        "nuclear power",
+        "coal, oil or gas"
+      ],
+      "quotes": [
+        "Specifically excludes stocks of certain companies related to the following: adult entertainment, alcohol, tobacco, ..."
+      ],
+      "notes": "The fact sheet list continues with cannabis, gambling, weapons, nuclear power, and coal, oil or gas (fact sheet as of 30 Sep 2026).",
+      "source": "https://investor.vanguard.com/etf/profile/esgv",
+      "parent_source": "https://investor.vanguard.com/investment-products/etfs/profile/vti"
+    },
+    "CRBN": {
+      "name": "iShares Low Carbon Optimized MSCI ACWI ETF (formerly MSCI ACWI Low Carbon Target)",
+      "issuer": "BlackRock iShares",
+      "index": "MSCI ACWI Low Carbon Target Index (Net)",
+      "parent": "ACWI",
+      "parent_name": "iShares MSCI ACWI ETF",
+      "energy_proxy": "IXC",
+      "expense_ratio": 0.002,
+      "parent_expense_ratio": 0.0032,
+      "inception": "2014-12-08",
+      "fossil_promise": "reduced",
+      "exclusions": [
+        "controversial weapons",
+        "oil sands",
+        "thermal coal mining"
+      ],
+      "quotes": [
+        "seeks to track an index of global equities with lower carbon exposure than the broad market.",
+        "controversial weapons, oil sands, and thermal coal mining"
+      ],
+      "source": "https://www.blackrock.com/us/individual/products/271054/ishares-msci-acwi-low-carbon-target-etf",
+      "parent_source": "https://www.ishares.com/us/products/239600/ISHARES-MSCI-ACWI-ETF"
+    },
+    "SUSW.L": {
+      "name": "iShares MSCI World SRI UCITS ETF (Acc)",
+      "issuer": "BlackRock iShares",
+      "listing": "London Stock Exchange",
+      "index": "MSCI World SRI Select Reduced Fossil Fuel Index",
+      "parent": "SWDA.L",
+      "parent_name": "iShares Core MSCI World UCITS ETF (same MSCI World universe, no ESG selection)",
+      "energy_proxy": "IXC_GBP",
+      "currency": "GBP",
+      "expense_ratio": 0.002,
+      "parent_expense_ratio": 0.002,
+      "fossil_promise": "reduced",
+      "exclusions": [
+        "activities inconsistent with ESG criteria above the index provider's thresholds",
+        "reduced fossil fuel exposure (index name)"
+      ],
+      "quotes": [
+        "MSCI World SRI Select Reduced Fossil Fuel Index",
+        "The benchmark index only excludes companies engaging in certain activities inconsistent with ESG criteria"
+      ],
+      "notes": "The page does not list the excluded activities for this index; the fossil-fuel promise is read from the index name. FCA SDR classification shown: 'ESG Overseas' (no UK sustainability label).",
+      "source": "https://www.ishares.com/uk/professional/en/products/290846/ishares-msci-world-sri-ucits-etf",
+      "parent_source": "https://www.ishares.com/uk/individual/en/products/251882/ISHARES_MSCI_WORLD_UCITS_ETF"
+    },
+    "V3AB.L": {
+      "name": "Vanguard ESG Global All Cap UCITS ETF (USD Acc)",
+      "issuer": "Vanguard",
+      "listing": "London Stock Exchange",
+      "index": "FTSE Global All Cap Choice Index",
+      "parent": "VWRL.L",
+      "parent_name": "Vanguard FTSE All-World UCITS ETF (global equities, no ESG exclusions)",
+      "energy_proxy": "IXC_GBP",
+      "currency": "GBP",
+      "expense_ratio": 0.0024,
+      "parent_expense_ratio": 0.0014,
+      "fossil_promise": "full",
+      "exclusions": [
+        "adult entertainment",
+        "alcohol",
+        "gambling",
+        "tobacco",
+        "cannabis",
+        "nuclear power",
+        "fossil fuels",
+        "coal extraction, production and supporting services",
+        "chemical & biological weapons",
+        "cluster munitions",
+        "anti-personnel landmines",
+        "nuclear weapons"
+      ],
+      "quotes": [
+        "seeks to track the performance of the FTSE Global All Cap Choice Index.",
+        "Vice Products (i.e., adult entertainment, alcohol, gambling, tobacco, cannabis)",
+        "Non-Renewable Energy (nuclear power, and fossil fuels"
+      ],
+      "source": "https://www.nl.vanguard/professional/product/etf/equity/9471/esg-global-all-cap-ucits",
+      "parent_source": "https://www.nl.vanguard/professional/insights/were-lowering-fees-on-one-of-our-most-popular-etfs"
+    }
+  }
+}

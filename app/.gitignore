@@ -1,0 +1,11 @@
+# Bloomberg licence: real Bloomberg data never enter the repository
+# (sample_data/bbg* are synthetic test files and are tracked on purpose)
+/bbg/
+/private/
+/snapshot/
+results/bbg_run/
+*.xlsx
+!sample_data/**/*.xlsx
+__pycache__/
+.pytest_cache/
+.venv-app/

@@ -1,0 +1,15 @@
+reference,strength,mean_ac1,flag_gated,flag_ungated,score_below_50,score_below_70
+synthetic reference (1000/category),0.0,-0.0006451229586280438,2.0,4.0,4.0,9.0
+synthetic reference (1000/category),0.1,0.054211141871248626,5.5,13.5,8.0,16.0
+synthetic reference (1000/category),0.2,0.1278501518123522,23.5,41.5,20.5,36.0
+synthetic reference (1000/category),0.3,0.2244840235352447,63.5,77.5,61.0,77.0
+synthetic reference (1000/category),0.4,0.3444131502347754,93.0,97.5,96.5,99.5
+synthetic reference (1000/category),0.5,0.4768849646728382,100.0,100.0,100.0,100.0
+synthetic reference (1000/category),0.6,0.593218011793473,100.0,100.0,100.0,100.0
+real reference (40 funds),0.0,-0.0006451229586280438,2.0,25.5,1.0,4.0
+real reference (40 funds),0.1,0.054211141871248626,5.5,46.5,1.5,6.0
+real reference (40 funds),0.2,0.1278501518123522,23.5,74.5,0.5,22.5
+real reference (40 funds),0.3,0.2244840235352447,63.5,91.5,2.0,62.0
+real reference (40 funds),0.4,0.3444131502347754,93.0,99.0,0.5,92.5
+real reference (40 funds),0.5,0.4768849646728382,100.0,100.0,1.5,100.0
+real reference (40 funds),0.6,0.593218011793473,100.0,100.0,1.5,100.0

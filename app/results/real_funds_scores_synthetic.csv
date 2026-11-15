@@ -1,0 +1,41 @@
+ticker,category,style,n_obs,score,reliability,cap,sub_autocorrelation,sub_factor_regression,sub_near_zero,sub_peer_anomaly,flagged
+HYG,bond,passive,128,31.998001998002,high,True,100.0,100.0,100.0,1.998001998001998,"peer_anomaly, benford"
+EMB,bond,passive,128,33.996003996004,high,True,100.0,100.0,100.0,3.996003996003996,peer_anomaly
+TLT,bond,passive,128,33.996003996004,high,True,100.0,100.0,100.0,3.996003996003996,peer_anomaly
+VWEHX,bond,active,128,33.996003996004,high,True,100.0,100.0,56.455990626055005,3.996003996003996,peer_anomaly
+BKLN,bond,passive,128,35.994005994005995,high,True,100.0,100.0,100.0,5.9940059940059935,peer_anomaly
+PTTRX,bond,active,128,37.99200799200799,high,True,100.0,100.0,100.0,7.992007992007992,peer_anomaly
+IEF,bond,passive,128,37.99200799200799,high,True,100.0,100.0,100.0,7.992007992007992,peer_anomaly
+AGG,bond,passive,128,39.99000999000999,high,True,100.0,100.0,100.0,9.99000999000999,peer_anomaly
+MUB,bond,passive,128,39.99000999000999,high,True,100.0,100.0,85.41429660602068,9.99000999000999,peer_anomaly
+FBNDX,bond,active,128,39.99000999000999,high,True,100.0,100.0,30.992728312694773,9.99000999000999,"near_zero, peer_anomaly"
+BND,bond,passive,128,41.98801198801199,high,True,100.0,100.0,100.0,11.988011988011987,peer_anomaly
+LQD,bond,passive,128,45.98401598401598,high,True,100.0,100.0,100.0,15.984015984015985,peer_anomaly
+DODIX,bond,active,128,51.97802197802198,high,True,100.0,100.0,100.0,21.978021978021978,"peer_anomaly, benford"
+FDGRX,equity,active,128,59.97002997002997,high,True,100.0,29.97002997002997,100.0,100.0,factor_regression
+SPY,equity,passive,128,72.83646823893449,high,True,100.0,100.0,42.836468238934486,100.0,near_zero
+AOM,multi-asset,passive,128,78.20289330288259,high,True,100.0,100.0,48.20289330288258,100.0,near_zero
+AIVSX,equity,active,128,91.57842157842158,high,False,100.0,71.92807192807193,100.0,100.0,
+SHY,bond,passive,128,91.93806193806194,high,True,100.0,100.0,100.0,61.938061938061935,peer_anomaly
+DODBX,multi-asset,active,128,97.982017982018,high,False,100.0,100.0,100.0,89.91008991008991,"peer_anomaly, benford"
+AMCPX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+AGTHX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+PRGFX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+DODGX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+FCNTX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,benford
+IWM,equity,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,
+QQQ,equity,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,
+VTV,equity,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,benford
+IJR,equity,passive,128,100.0,medium,False,100.0,100.0,,100.0,
+VTI,equity,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,
+VWNDX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+VUG,equity,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,
+FMAGX,equity,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+VWELX,multi-asset,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+ABALX,multi-asset,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+PRWCX,multi-asset,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+FPURX,multi-asset,active,128,100.0,high,False,100.0,100.0,100.0,100.0,benford
+FBALX,multi-asset,active,128,100.0,high,False,100.0,100.0,100.0,100.0,
+VBINX,multi-asset,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,
+AOR,multi-asset,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,
+AOA,multi-asset,passive,128,100.0,high,False,100.0,100.0,100.0,100.0,

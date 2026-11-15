@@ -1,0 +1,30 @@
+{
+ "mode": "dry-run",
+ "seed": 2026,
+ "versions": {
+  "python": "3.13.18",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "scikit_learn": "1.9.1",
+  "matplotlib": "3.11.2"
+ },
+ "engine_hashes": "match tests/engine_hashes.txt",
+ "parameters": {
+  "P_SCALE": 0.1,
+  "FLAG_P": 0.05,
+  "MIN_REF": 20,
+  "retuned": false
+ },
+ "data_received": "1900-01-01",
+ "input_checksums": {
+  "returns.csv": "4007741d5629746b",
+  "meta.csv": "2625d6cd920329b9",
+  "benchmarks.csv": "b31744d1b694a400",
+  "field_log.csv": "a2eec9dad2dc8256"
+ },
+ "reference_version": "dryrun-4007741d",
+ "run_at_utc": "2026-11-13T14:45:16+00:00",
+ "n_numbers": 89
+}

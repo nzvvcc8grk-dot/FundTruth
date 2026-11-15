@@ -1,0 +1,36 @@
+FundTruth data-quality report
+Data received/retrieved (field_log): 1900-01-01
+Funds in universe after checks: 80; excluded: 4
+Input file fingerprints (sha256, first 16 hex): returns.csv=4007741d5629746b, meta.csv=2625d6cd920329b9, benchmarks.csv=b31744d1b694a400, field_log.csv=a2eec9dad2dc8256
+
+Exclusions (one by one, nothing corrected silently):
+  F081: short history: 24 months (< 36)
+  F082: 3 missing month(s) inside the span (allowed: 0); nothing was interpolated
+  F083: repeated zero returns: longest run 6, 5% zeros (rule: run >= 3 or share > 10%; stale-price pattern, provisional)
+  F084: constant series
+
+Notes:
+  2 dead/merged fund(s) kept in the universe.
+  Mixed fund currencies, all declared: ['EUR', 'GBP', 'USD']. Factors are USD-based: warnings apply.
+
+Universe by asset class x region (after exclusions):
+  bond x US: 22
+  equity x Europe: 22
+  equity x US: 24
+  multi-asset x Europe: 2
+  multi-asset x Global: 2
+  other x Europe: 2
+  other x Global: 2
+  real_assets x Europe: 2
+  real_assets x Global: 2
+
+Pricing types: nav_listed_holdings=48, exchange_traded=20, appraised_nav=12
+
+Sourcing (field_log.csv):
+  TOTAL RETURN / NAV (SYNTHETIC EXAMPLE); retrieved 1900-01-01; synthetic sample, not a real universe
+  FUND METADATA (SYNTHETIC EXAMPLE); retrieved 1900-01-01; synthetic sample, not a real universe
+
+Factors loaded: Europe, Global, US.
+DRY RUN: factors and data are synthetic; regressions and all results are meaningless.
+
+A flag is a signal to investigate, never proof. Cite as 'Bloomberg Terminal, retrieved <date>'.

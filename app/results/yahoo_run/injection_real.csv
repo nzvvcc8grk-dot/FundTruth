@@ -1,0 +1,5 @@
+source,scenario,n_funds,target_test,n_flagged,detection_pct,ci95_low,ci95_high,median_score,pct_score_below_50,pct_any_flag
+yahoo,unmodified (baseline),40,any of the four,3,7.5,2.5835556771858226,19.864530159097523,100.0,0.0,7.5
+yahoo,smoothing s=0.3,40,autocorrelation,13,32.5,20.084316962661724,47.98254191110201,100.0,5.0,35.0
+yahoo,smoothing s=0.6,40,autocorrelation,40,100.0,91.23754607496078,100.0,55.0,5.0,100.0
+yahoo,losses shifted above zero,40,near_zero,37,92.5,80.13546984090249,97.41644432281419,30.39649129104852,85.0,92.5

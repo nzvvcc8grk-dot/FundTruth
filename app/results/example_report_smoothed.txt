@@ -1,0 +1,20 @@
+FundTruth integrity report: SYN_A_smoothed_4
+Category: multi-asset (active); 96 monthly observations; reference version synthetic-v0
+Integrity score: 31 / 100 (100 = no concern, 0 = high concern)
+Reliability: high
+
+- Autocorrelation (smoothing): subscore 1 [FLAG]
+    Lag-1/2/3 autocorrelation 0.53/0.19/-0.11 (positive overall; Ljung-Box Q(3)=32.4, asymptotic p=0.000); peer-set median lag-1 is -0.01, empirical p vs peers 0.001. Strong positive autocorrelation can indicate smoothed or stale pricing.
+- Factor regression (closet indexing / implausible alpha): subscore 34 [FLAG]
+    R2=0.32, tracking error 3.7% a year, annualised alpha 3.4% (t=2.6); R2 below 0.95: no closet signal; alpha percentile vs peers p=0.017. Very high R2 with tiny tracking error suggests closet indexing; an implausibly high, significant alpha is a plausibility concern. Negative alpha is not treated as an integrity issue.
+- Near-zero (small losses vs small gains): subscore 100 [OK]
+    10 returns in [-0.5%, 0) and 18 in [0, 0.5%): 64% are gains versus 55% expected from the fund's own central distribution (one-sided binomial p=0.212). Too few small losses and too many small gains can indicate earnings-management-style reporting. Low power with few returns near zero.
+- Peer anomaly (Isolation Forest + k-means): subscore 2 [FLAG]
+    Isolation Forest percentile vs the frozen peer set is 0.1%; subscore drops only below the 5% percentile. Distance to nearest k-means cluster is larger than 100% of peers (information only). Features: vol, skew, ac1, alpha, r2.
+- Benford first digit (experimental): subscore 30 [FLAG] [not in score]
+    First-digit chi-square 17.0 (8 df, p=0.030) on 96 returns. EXPERIMENTAL and weight 0: returns are small percentages and do not span orders of magnitude, so honest funds also deviate from Benford (high false-positive risk).
+
+Excluded: benford: weight 0 (shown, not scored)
+
+Limits: few observations, survivorship bias in public data, private funds not covered, Benford experimental, false positives are expected.
+Statistical signal to investigate, not proof of irregularity or fraud.

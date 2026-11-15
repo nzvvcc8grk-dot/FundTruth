@@ -1,0 +1,7 @@
+fund_id,region,currency,asset_class,pricing,style,expense_ratio,benchmark_id
+SYN_US_ETF,US,USD,equity,exchange_traded,passive,0.0003,BMK_SYN
+SYN_EU_EQ,Europe,EUR,equity,nav_listed_holdings,active,0.0075,BMK_SYN
+SYN_APPRAISED,Global,USD,multi-asset,appraised_nav,active,0.012,BMK_SYN
+SYN_BOND,US,USD,bond,exchange_traded,active,,BMK_SYN
+SYN_CLOSET,US,USD,equity,nav_listed_holdings,active,0.01,BMK_SYN
+SYN_SHORT,US,USD,equity,nav_listed_holdings,active,,BMK_SYN

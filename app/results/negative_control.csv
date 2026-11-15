@@ -1,0 +1,8 @@
+category,pricing,question_pct,unusual_pct,funds
+bond,exchange_traded,62.0,10.0,50
+bond,nav_listed_holdings,68.0,2.0,50
+equity,exchange_traded,8.0,0.0,50
+equity,nav_listed_holdings,8.0,0.0,50
+multi-asset,exchange_traded,16.0,0.0,50
+multi-asset,nav_listed_holdings,14.0,0.0,50
+all,all,29.3,2.0,300

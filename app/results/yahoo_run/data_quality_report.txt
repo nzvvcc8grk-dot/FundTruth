@@ -1,0 +1,5 @@
+FundTruth data-quality report (DEGRADED MODE: public Yahoo Finance data)
+Degraded mode: public Yahoo Finance data, 40 US-listed funds, US factors only, no expense ratios, no dead funds (survivorship bias), pricing types proposed from fund type.
+FundTruth data note (generated 2026-11-13)
+Funds: 40; factors: US only (Kenneth French library); IDs are public tickers (not Bloomberg).
+A flag is a signal to investigate, never proof.

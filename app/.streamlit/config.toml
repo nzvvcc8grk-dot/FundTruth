@@ -1,0 +1,91 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = false
+enableStaticServing = true      # serves static/ (bundled IBM Plex fonts, logo) so the app looks the same offline
+
+[client]
+toolbarMode = "minimal"
+
+# ---------------------------------------------------------------- FundTruth visual identity
+# Ink #14213D for text, ledger blue #1E4D78 for actions, a pale ledger-paper sidebar,
+# and the same five status colours everywhere (nothing unusual / worth a look / unusual / descriptive / n.a.).
+[theme]
+base = "light"
+primaryColor = "#1E4D78"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6F5"
+textColor = "#14213D"
+linkColor = "#1E4D78"
+linkUnderline = false
+borderColor = "#DCE2E4"
+dataframeBorderColor = "#E4E8EA"
+dataframeHeaderBackgroundColor = "#F3F6F5"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "IBM Plex Sans, sans-serif"
+headingFont = "IBM Plex Sans, sans-serif"
+baseFontSize = 15
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+headingFontSizes = ["2.15rem", "1.45rem", "1.15rem", "1rem", "0.95rem", "0.9rem"]
+metricValueFontWeight = 600
+metricValueFontSize = "1.6rem"
+greenColor = "#2E7D5B"
+greenBackgroundColor = "#E4F1EA"
+orangeColor = "#A86A12"
+orangeBackgroundColor = "#FAEFD9"
+redColor = "#B42318"
+redBackgroundColor = "#FBE6E3"
+grayColor = "#5F6B7A"
+grayBackgroundColor = "#EDF0F3"
+blueColor = "#1E4D78"
+blueBackgroundColor = "#E5EDF5"
+chartCategoricalColors = ["#1E4D78", "#8A94A0", "#A86A12", "#2E7D5B", "#B42318"]
+
+[theme.sidebar]
+backgroundColor = "#EEF2EF"
+secondaryBackgroundColor = "#E3E9E5"
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-Regular.woff2"
+weight = 400
+style = "normal"
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-Italic.woff2"
+weight = 400
+style = "italic"
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-Medium.woff2"
+weight = 500
+style = "normal"
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-SemiBold.woff2"
+weight = 600
+style = "normal"
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-Bold.woff2"
+weight = 700
+style = "normal"
+[[theme.fontFaces]]
+family = "IBM Plex Serif"
+url = "app/static/fonts/IBMPlexSerif-Regular.woff2"
+weight = 400
+style = "normal"
+[[theme.fontFaces]]
+family = "IBM Plex Serif"
+url = "app/static/fonts/IBMPlexSerif-Italic.woff2"
+weight = 400
+style = "italic"
+[[theme.fontFaces]]
+family = "IBM Plex Serif"
+url = "app/static/fonts/IBMPlexSerif-Medium.woff2"
+weight = 500
+style = "normal"

@@ -1,0 +1,7 @@
+asset_class,region,pricing,n_funds,n_scored,n_dead,median_months,median_score,n_unusual_any
+bond,US,exchange_traded,10,10,0,128.0,100.0,10
+bond,US,nav_listed_holdings,4,4,0,128.0,93.22497857691687,4
+equity,US,exchange_traded,7,7,0,128.0,100.0,7
+equity,US,nav_listed_holdings,9,9,0,128.0,100.0,9
+multi-asset,US,exchange_traded,3,3,0,128.0,100.0,3
+multi-asset,US,nav_listed_holdings,7,7,0,128.0,100.0,7

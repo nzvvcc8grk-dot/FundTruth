@@ -1,0 +1,10 @@
+FundTruth data note (generated 2026-11-13)
+Sources: Yahoo Finance via yfinance (adjusted close, dividends reinvested);
+Kenneth R. French Data Library, monthly Fama/French 3 factors (US, percent in the file, divided by 100 once here).
+Period: requested start 2016-01-01; factors cover 1926-07-31 to 2026-09-30; funds are aligned to the common months.
+Funds kept: 40; rejected: 0 (see rejected.csv).
+Limitations: survivorship bias (only funds that exist today); Yahoo prices are
+not audited fund NAVs and may be net of fees only through the price; some
+tickers are share classes with loads not reflected; US factors are weak
+explanatory variables for bond funds; private/hedge funds not covered.
+Every figure derived from this file must cite these sources.

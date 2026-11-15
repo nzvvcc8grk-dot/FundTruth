@@ -1,0 +1,7 @@
+fund_id,region,currency,asset_class,pricing,style,expense_ratio
+SYN_US_ETF,US,USD,equity,exchange_traded,passive,0.0003
+SYN_EU_EQ,Europe,EUR,equity,nav_listed_holdings,active,0.0075
+SYN_APPRAISED,Global,USD,multi-asset,appraised_nav,active,0.012
+SYN_BOND,US,USD,bond,exchange_traded,active,
+SYN_CLOSET,US,USD,equity,nav_listed_holdings,active,0.01
+SYN_SHORT,US,USD,equity,nav_listed_holdings,active,

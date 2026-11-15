@@ -1,0 +1,62 @@
+key,figure,unit,source_file,note
+universe.n_funds,40,funds,universe_summary.csv,
+universe.n_scored,40,funds,findings_by_fund.csv,
+universe.n_dead,0,funds,findings_by_fund.csv,"No dead or merged fund in this universe: only funds that still exist are observed, so past failures are missing and flag rates are likely understated for the problems that kill funds."
+universe.n_groups,3,groups,groups.csv,
+universe.n_groups_below_minimum,3,groups,groups.csv,minimum 20 funds
+universe.group.bond.US.n_funds,14,funds,groups.csv,FALLBACK: only 14 funds (< 20); peers are all bond funds regardless of region (n=14); still < 20: the engine pools across asset classes
+universe.group.equity.US.n_funds,16,funds,groups.csv,FALLBACK: only 16 funds (< 20); peers are all equity funds regardless of region (n=16); still < 20: the engine pools across asset classes
+universe.group.multi-asset.US.n_funds,10,funds,groups.csv,FALLBACK: only 10 funds (< 20); peers are all multi-asset funds regardless of region (n=10); still < 20: the engine pools across asset classes
+universe.flag_pct.autocorrelation,0.0,%,flag_rates_real.csv,0/40; 95% CI 0.0-8.8
+universe.flag_pct.factor_regression,0.0,%,flag_rates_real.csv,0/40; 95% CI 0.0-8.8
+universe.flag_pct.near_zero,7.6923,%,flag_rates_real.csv,3/39; 95% CI 2.7-20.3
+universe.flag_pct.peer_anomaly,0.0,%,flag_rates_real.csv,0/40; 95% CI 0.0-8.8
+universe.flag_pct.any_of_the_four,7.5,%,flag_rates_real.csv,3/40; 95% CI 2.6-19.9
+universe.flag_pct.any.live,7.5,%,flag_rates_real.csv,n=40
+universe.injection.unmodified.detection_pct,7.5,%,injection_real.csv,3/40; target any of the four
+universe.injection.smoothing_s0.3.detection_pct,32.5,%,injection_real.csv,13/40; target autocorrelation
+universe.injection.smoothing_s0.6.detection_pct,100.0,%,injection_real.csv,40/40; target autocorrelation
+universe.injection.losses_shifted_above_zero.detection_pct,92.5,%,injection_real.csv,37/40; target near_zero
+universe.pct_score_below_50,0.0,%,findings_by_fund.csv,
+universe.pct_reference_inadequate,0.0,%,findings_by_fund.csv,funds scored with a reference < 20
+three_funds.IJR.priority_index,100.0,0-100,three_funds.csv,US exchange-traded equity ETF
+three_funds.IJR.headline,Nothing unusual in the checks that apply,,three_funds.csv,US exchange-traded equity ETF
+three_funds.missing.European equity fund,no fund matches,,three_funds.csv,pick IDs with --three
+three_funds.missing.Appraised-NAV fund,no fund matches,,three_funds.csv,pick IDs with --three
+synthetic.a_smoothed.pct_high_concern,100.0,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.a_smoothed.mean_score,27.9,0-100,validation_summary.csv,
+synthetic.b_nearzero.pct_high_concern,100.0,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.b_nearzero.mean_score,30.6,0-100,validation_summary.csv,
+synthetic.c_closet.pct_high_concern,100.0,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.c_closet.mean_score,32.0,0-100,validation_summary.csv,
+synthetic.d_control.pct_high_concern,5.0,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.d_control.mean_score,94.6,0-100,validation_summary.csv,
+synthetic.honest_bond.pct_high_concern,3.7,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.honest_bond.mean_score,94.9,0-100,validation_summary.csv,
+synthetic.honest_equity.pct_high_concern,5.7,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.honest_equity.mean_score,94.3,0-100,validation_summary.csv,
+synthetic.honest_multi-asset.pct_high_concern,6.3,%,validation_summary.csv,"n=300 simulated series, score < 50"
+synthetic.honest_multi-asset.mean_score,93.0,0-100,validation_summary.csv,
+synthetic.false_positive_pct.autocorrelation,2.5,%,flag_rates_per_test.csv,mean over simulated honest series
+synthetic.false_positive_pct.factor_regression,3.75,%,flag_rates_per_test.csv,mean over simulated honest series
+synthetic.false_positive_pct.near_zero,3.275,%,flag_rates_per_test.csv,mean over simulated honest series
+synthetic.false_positive_pct.peer_anomaly,4.175,%,flag_rates_per_test.csv,mean over simulated honest series
+synthetic.false_positive_pct.benford,31.0,%,flag_rates_per_test.csv,mean over simulated honest series
+synthetic.power.smoothing_0.0.flag_pct,2.0,%,power_curve.csv,
+synthetic.power.smoothing_0.1.flag_pct,5.5,%,power_curve.csv,
+synthetic.power.smoothing_0.2.flag_pct,23.5,%,power_curve.csv,
+synthetic.power.smoothing_0.3.flag_pct,63.5,%,power_curve.csv,
+synthetic.power.smoothing_0.4.flag_pct,93.0,%,power_curve.csv,
+synthetic.power.smoothing_0.5.flag_pct,100.0,%,power_curve.csv,
+synthetic.power.smoothing_0.6.flag_pct,100.0,%,power_curve.csv,
+synthetic.closet.0.factor_flag_pct,0.0,%,closet_rule_validation.csv,"c_closet, expense unknown"
+synthetic.closet.1.factor_flag_pct,0.0,%,closet_rule_validation.csv,"c_closet, expense 0.30% (below median)"
+synthetic.closet.2.factor_flag_pct,100.0,%,closet_rule_validation.csv,"c_closet, expense 1.00% (above median)"
+synthetic.closet.3.factor_flag_pct,6.0,%,closet_rule_validation.csv,"d_control (honest), expense 1.00%"
+synthetic.closet.4.factor_flag_pct,100.0,%,closet_rule_validation.csv,"c_closet, expense 1.00%, declared benchmark = market"
+synthetic.closet.5.factor_flag_pct,0.0,%,closet_rule_validation.csv,"c_closet, expense unknown, declared benchmark = market"
+synthetic.closet.6.factor_flag_pct,3.0,%,closet_rule_validation.csv,"d_control (honest), expense 1.00%, declared benchmark = market"
+parameters.P_SCALE,0.1,,fundtruth.py,provisional
+parameters.FLAG_P,0.05,,fundtruth.py,provisional
+parameters.cap,30,points,fundtruth.py,provisional
+parameters.retuned_on_these_data,False,,real_validation.py,no retuning; split not needed

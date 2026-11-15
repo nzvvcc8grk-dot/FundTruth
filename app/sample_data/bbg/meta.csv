@@ -1,0 +1,85 @@
+fund_id,region,currency,asset_class,pricing,benchmark_id,expense_ratio,inception,aum,domicile,is_dead,last_date,category_label
+F001,US,USD,equity,exchange_traded,BMK_US,0.0004,2008-01-31,,US,False,,US Large Cap Blend
+F002,US,USD,equity,exchange_traded,BMK_US,0.0004,2008-01-31,,US,False,,US Large Cap Blend
+F003,US,USD,equity,exchange_traded,BMK_US,0.0004,2008-01-31,,US,False,,US Large Cap Blend
+F004,US,USD,equity,exchange_traded,BMK_US,0.0004,2008-01-31,,US,False,,US Large Cap Blend
+F005,US,USD,equity,exchange_traded,BMK_US,0.0071,2008-01-31,,US,False,,US Large Cap Blend
+F006,US,USD,equity,exchange_traded,BMK_US,0.0091,2008-01-31,,US,False,,US Large Cap Blend
+F007,US,USD,equity,exchange_traded,BMK_US,0.0119,2008-01-31,,US,False,,US Large Cap Blend
+F008,US,USD,equity,exchange_traded,BMK_US,0.0050,2008-01-31,,US,False,,US Large Cap Blend
+F009,US,USD,equity,nav_listed_holdings,BMK_US,0.0110,2008-01-31,,US,False,,US Large Cap Blend
+F010,US,USD,equity,nav_listed_holdings,BMK_US,0.0110,2008-01-31,,US,False,,US Large Cap Blend
+F011,US,USD,equity,nav_listed_holdings,BMK_US,0.0092,2008-01-31,,US,False,,US Large Cap Blend
+F012,US,USD,equity,nav_listed_holdings,BMK_US,0.0058,2008-01-31,,US,False,,US Large Cap Blend
+F013,US,USD,equity,nav_listed_holdings,BMK_US,0.0053,2008-01-31,,US,False,,US Large Cap Blend
+F014,US,USD,equity,nav_listed_holdings,BMK_US,0.0052,2008-01-31,,US,False,,US Large Cap Blend
+F015,US,USD,equity,nav_listed_holdings,BMK_US,0.0066,2008-01-31,,US,False,,US Large Cap Blend
+F016,US,USD,equity,nav_listed_holdings,BMK_US,0.0041,2008-01-31,,US,False,,US Large Cap Blend
+F017,US,USD,equity,nav_listed_holdings,BMK_US,0.0090,2008-01-31,,US,False,,US Large Cap Blend
+F018,US,USD,equity,nav_listed_holdings,BMK_US,0.0083,2008-01-31,,US,False,,US Large Cap Blend
+F019,US,USD,equity,nav_listed_holdings,BMK_US,0.0078,2008-01-31,,US,False,,US Large Cap Blend
+F020,US,USD,equity,nav_listed_holdings,BMK_US,0.0041,2008-01-31,,US,False,,US Large Cap Blend
+F021,US,USD,equity,nav_listed_holdings,BMK_US,0.0119,2008-01-31,,US,False,,US Large Cap Blend
+F022,US,USD,equity,nav_listed_holdings,BMK_US,0.0090,2008-01-31,,US,False,,US Large Cap Blend
+F023,US,USD,equity,nav_listed_holdings,BMK_US,0.0118,2008-01-31,,US,False,,US Large Cap Blend
+F024,US,USD,equity,nav_listed_holdings,BMK_US,0.0046,2008-01-31,,US,True,2023-06-30,US Large Cap Blend
+F025,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0044,2008-01-31,,LU,False,,Europe Large Cap
+F026,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0106,2008-01-31,,LU,False,,Europe Large Cap
+F027,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0080,2008-01-31,,LU,False,,Europe Large Cap
+F028,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0044,2008-01-31,,LU,False,,Europe Large Cap
+F029,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0083,2008-01-31,,LU,False,,Europe Large Cap
+F030,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0135,2008-01-31,,LU,False,,Europe Large Cap
+F031,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0079,2008-01-31,,LU,False,,Europe Large Cap
+F032,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0112,2008-01-31,,LU,False,,Europe Large Cap
+F033,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0054,2008-01-31,,LU,False,,Europe Large Cap
+F034,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0087,2008-01-31,,LU,False,,Europe Large Cap
+F035,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0052,2008-01-31,,LU,False,,Europe Large Cap
+F036,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0042,2008-01-31,,LU,False,,Europe Large Cap
+F037,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0077,2008-01-31,,LU,False,,Europe Large Cap
+F038,Europe,EUR,equity,nav_listed_holdings,BMK_EU,0.0075,2008-01-31,,LU,False,,Europe Large Cap
+F039,Europe,GBP,equity,exchange_traded,BMK_EU,0.0103,2008-01-31,,LU,False,,Europe Large Cap
+F040,Europe,GBP,equity,exchange_traded,BMK_EU,0.0090,2008-01-31,,LU,False,,Europe Large Cap
+F041,Europe,GBP,equity,exchange_traded,BMK_EU,0.0095,2008-01-31,,LU,False,,Europe Large Cap
+F042,Europe,GBP,equity,exchange_traded,BMK_EU,0.0080,2008-01-31,,LU,False,,Europe Large Cap
+F043,Europe,GBP,equity,nav_listed_holdings,BMK_EU,0.0059,2008-01-31,,LU,False,,Europe Large Cap
+F044,Europe,USD,equity,nav_listed_holdings,BMK_EU,0.0086,2008-01-31,,LU,False,,Europe Large Cap
+F045,Europe,USD,equity,nav_listed_holdings,BMK_EU,0.0078,2008-01-31,,LU,False,,Europe Large Cap
+F046,Europe,USD,equity,nav_listed_holdings,BMK_EU,0.0041,2008-01-31,,LU,True,2023-06-30,Europe Large Cap
+F047,US,USD,bond,exchange_traded,BMK_AGG,0.0037,2008-01-31,,US,False,,US Aggregate Bond
+F048,US,USD,bond,exchange_traded,BMK_AGG,0.0060,2008-01-31,,US,False,,US Aggregate Bond
+F049,US,USD,bond,exchange_traded,BMK_AGG,0.0063,2008-01-31,,US,False,,US Aggregate Bond
+F050,US,USD,bond,exchange_traded,BMK_AGG,0.0047,2008-01-31,,US,False,,US Aggregate Bond
+F051,US,USD,bond,exchange_traded,BMK_AGG,0.0047,2008-01-31,,US,False,,US Aggregate Bond
+F052,US,USD,bond,exchange_traded,BMK_AGG,0.0028,2008-01-31,,US,False,,US Aggregate Bond
+F053,US,USD,bond,exchange_traded,BMK_AGG,0.0023,2008-01-31,,US,False,,US Aggregate Bond
+F054,US,USD,bond,exchange_traded,BMK_AGG,0.0076,2008-01-31,,US,False,,US Aggregate Bond
+F055,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0023,2008-01-31,,US,False,,US Aggregate Bond
+F056,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0062,2008-01-31,,US,False,,US Aggregate Bond
+F057,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0043,2008-01-31,,US,False,,US Aggregate Bond
+F058,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0021,2008-01-31,,US,False,,US Aggregate Bond
+F059,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0024,2008-01-31,,US,False,,US Aggregate Bond
+F060,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0031,2008-01-31,,US,False,,US Aggregate Bond
+F061,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0027,2008-01-31,,US,False,,US Aggregate Bond
+F062,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0057,2008-01-31,,US,False,,US Aggregate Bond
+F063,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0078,2008-01-31,,US,False,,US Aggregate Bond
+F064,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0025,2008-01-31,,US,False,,US Aggregate Bond
+F065,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0022,2008-01-31,,US,False,,US Aggregate Bond
+F066,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0032,2008-01-31,,US,False,,US Aggregate Bond
+F067,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0058,2008-01-31,,US,False,,US Aggregate Bond
+F068,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0026,2008-01-31,,US,False,,US Aggregate Bond
+F069,Global,USD,real_assets,appraised_nav,,0.0119,2008-01-31,,LU,False,,Property
+F070,Europe,EUR,real_assets,appraised_nav,,0.0157,2008-01-31,,LU,False,,Property
+F071,Global,USD,real_assets,appraised_nav,,0.0086,2008-01-31,,LU,False,,Property
+F072,Europe,EUR,real_assets,appraised_nav,,0.0100,2008-01-31,,LU,False,,Property
+F073,Global,USD,other,appraised_nav,,0.0186,2008-01-31,,LU,False,,Private Credit
+F074,Europe,EUR,other,appraised_nav,,0.0102,2008-01-31,,LU,False,,Private Credit
+F075,Global,USD,other,appraised_nav,,0.0197,2008-01-31,,LU,False,,Private Credit
+F076,Europe,EUR,other,appraised_nav,,0.0122,2008-01-31,,LU,False,,Private Credit
+F077,Global,USD,multi-asset,appraised_nav,,0.0157,2008-01-31,,LU,False,,Fund of Hedge Funds
+F078,Europe,EUR,multi-asset,appraised_nav,,0.0186,2008-01-31,,LU,False,,Fund of Hedge Funds
+F079,Global,USD,multi-asset,appraised_nav,,0.0103,2008-01-31,,LU,False,,Fund of Hedge Funds
+F080,Europe,EUR,multi-asset,appraised_nav,,0.0192,2008-01-31,,LU,False,,Fund of Hedge Funds
+F081,US,USD,equity,nav_listed_holdings,BMK_US,0.0080,2008-01-31,,US,False,,short history
+F082,US,USD,equity,nav_listed_holdings,BMK_US,0.0080,2008-01-31,,US,False,,gap
+F083,US,USD,equity,nav_listed_holdings,BMK_US,0.0080,2008-01-31,,US,False,,stale zeros
+F084,US,USD,bond,nav_listed_holdings,BMK_AGG,0.0030,2008-01-31,,US,False,,constant

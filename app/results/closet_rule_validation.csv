@@ -1,0 +1,8 @@
+scenario,n,factor_test_flag_pct,score_below_50_pct
+"c_closet, expense unknown",100,0.0,2.0
+"c_closet, expense 0.30% (below median)",100,0.0,2.0
+"c_closet, expense 1.00% (above median)",100,100.0,100.0
+"d_control (honest), expense 1.00%",100,6.0,4.0
+"c_closet, expense 1.00%, declared benchmark = market",100,100.0,100.0
+"c_closet, expense unknown, declared benchmark = market",100,0.0,2.0
+"d_control (honest), expense 1.00%, declared benchmark = market",100,3.0,3.0

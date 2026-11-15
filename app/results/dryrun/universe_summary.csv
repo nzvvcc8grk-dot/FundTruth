@@ -1,0 +1,13 @@
+asset_class,region,pricing,n_funds,n_scored,n_dead,median_months,median_score,n_unusual_any
+bond,US,exchange_traded,8,8,0,120.0,100.0,8
+bond,US,nav_listed_holdings,14,14,0,120.0,100.0,14
+equity,Europe,exchange_traded,4,4,0,120.0,100.0,4
+equity,Europe,nav_listed_holdings,18,18,1,120.0,100.0,18
+equity,US,exchange_traded,8,8,0,120.0,100.0,8
+equity,US,nav_listed_holdings,16,16,1,120.0,100.0,16
+multi-asset,Europe,appraised_nav,2,2,0,119.0,100.0,2
+multi-asset,Global,appraised_nav,2,2,0,118.0,48.75,2
+other,Europe,appraised_nav,2,2,0,118.0,86.25,2
+other,Global,appraised_nav,2,2,0,119.0,90.0,2
+real_assets,Europe,appraised_nav,2,2,0,119.0,94.375,2
+real_assets,Global,appraised_nav,2,2,0,119.0,83.75,2

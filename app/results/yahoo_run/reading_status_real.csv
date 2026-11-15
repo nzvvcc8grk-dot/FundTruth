@@ -1,0 +1,12 @@
+source,reading,status,n_funds,pct
+yahoo,price_regularity,nothing unusual,40,100.0
+yahoo,style,nothing unusual,40,100.0
+yahoo,alpha,nothing unusual,39,97.5
+yahoo,alpha,worth a look,1,2.5
+yahoo,risk_shape,descriptive,40,100.0
+yahoo,distribution,nothing unusual,34,85.0
+yahoo,distribution,unusual,3,7.5
+yahoo,distribution,worth a look,2,5.0
+yahoo,distribution,not applicable,1,2.5
+yahoo,peers,nothing unusual,38,95.0
+yahoo,peers,worth a look,2,5.0

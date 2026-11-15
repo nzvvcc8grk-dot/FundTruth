@@ -1,0 +1,1 @@
+Degraded-mode universe for comparison. Public tickers, not Bloomberg data.

@@ -1,0 +1,76 @@
+source,level,key,test,n_funds,n_tested,n_flagged,flag_pct,ci95_low,ci95_high
+sample,all funds,all,autocorrelation,80,80,4,5.0,1.9613237127295569,12.1624525510822
+sample,all funds,all,factor_regression,80,80,0,0.0,0.0,4.5819736264575095
+sample,all funds,all,near_zero,80,78,1,1.2820512820512822,0.22666733888537863,6.911023028849367
+sample,all funds,all,peer_anomaly,80,80,6,7.5,3.482477485108787,15.412200097380097
+sample,all funds,all,any of the four,80,80,9,11.25,6.032618694827016,20.018410865677552
+sample,group,bond x US,autocorrelation,22,22,1,4.545454545454546,0.8069219301147859,21.798489499518052
+sample,group,bond x US,factor_regression,22,22,0,0.0,1.3877787807814457e-15,14.865952572596125
+sample,group,bond x US,near_zero,22,22,0,0.0,1.3877787807814457e-15,14.865952572596125
+sample,group,bond x US,peer_anomaly,22,22,1,4.545454545454546,0.8069219301147859,21.798489499518052
+sample,group,bond x US,any of the four,22,22,2,9.090909090909092,2.529489628283779,27.81538065838578
+sample,group,equity x Europe,autocorrelation,22,22,0,0.0,1.3877787807814457e-15,14.865952572596125
+sample,group,equity x Europe,factor_regression,22,22,0,0.0,1.3877787807814457e-15,14.865952572596125
+sample,group,equity x Europe,near_zero,22,21,1,4.761904761904762,0.8455769471923293,22.669816586235463
+sample,group,equity x Europe,peer_anomaly,22,22,1,4.545454545454546,0.8069219301147859,21.798489499518052
+sample,group,equity x Europe,any of the four,22,22,2,9.090909090909092,2.529489628283779,27.81538065838578
+sample,group,equity x US,autocorrelation,24,24,0,0.0,0.0,13.798057582897535
+sample,group,equity x US,factor_regression,24,24,0,0.0,0.0,13.798057582897535
+sample,group,equity x US,near_zero,24,23,0,0.0,0.0,14.312112541726274
+sample,group,equity x US,peer_anomaly,24,24,1,4.166666666666667,0.7393265354805125,20.242226248842233
+sample,group,equity x US,any of the four,24,24,1,4.166666666666666,0.7393265354805125,20.242226248842233
+sample,group,multi-asset x Europe,autocorrelation,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Europe,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Europe,near_zero,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Europe,peer_anomaly,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Europe,any of the four,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Global,autocorrelation,2,2,2,100.0,34.23719528896193,100.0
+sample,group,multi-asset x Global,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Global,near_zero,2,2,0,0.0,0.0,65.76280471103807
+sample,group,multi-asset x Global,peer_anomaly,2,2,2,100.0,34.23719528896193,100.0
+sample,group,multi-asset x Global,any of the four,2,2,2,100.0,34.23719528896193,100.0
+sample,group,other x Europe,autocorrelation,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Europe,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Europe,near_zero,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Europe,peer_anomaly,2,2,1,50.0,9.452865480086615,90.54713451991339
+sample,group,other x Europe,any of the four,2,2,1,50.0,9.452865480086615,90.54713451991339
+sample,group,other x Global,autocorrelation,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Global,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Global,near_zero,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Global,peer_anomaly,2,2,0,0.0,0.0,65.76280471103807
+sample,group,other x Global,any of the four,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Europe,autocorrelation,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Europe,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Europe,near_zero,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Europe,peer_anomaly,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Europe,any of the four,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Global,autocorrelation,2,2,1,50.0,9.452865480086615,90.54713451991339
+sample,group,real_assets x Global,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Global,near_zero,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Global,peer_anomaly,2,2,0,0.0,0.0,65.76280471103807
+sample,group,real_assets x Global,any of the four,2,2,1,50.0,9.452865480086615,90.54713451991339
+sample,pricing,appraised_nav,autocorrelation,12,12,3,25.0,8.894003962896138,53.231033912065996
+sample,pricing,appraised_nav,factor_regression,12,12,0,0.0,0.0,24.25007574992425
+sample,pricing,appraised_nav,near_zero,12,12,0,0.0,0.0,24.25007574992425
+sample,pricing,appraised_nav,peer_anomaly,12,12,3,25.0,8.894003962896138,53.231033912065996
+sample,pricing,appraised_nav,any of the four,12,12,4,33.33333333333333,13.811783989736135,60.9382412602386
+sample,pricing,exchange_traded,autocorrelation,20,20,0,0.0,0.0,16.113012549493323
+sample,pricing,exchange_traded,factor_regression,20,20,0,0.0,0.0,16.113012549493323
+sample,pricing,exchange_traded,near_zero,20,20,1,5.0,0.8881219432873135,23.613589351256675
+sample,pricing,exchange_traded,peer_anomaly,20,20,1,5.0,0.8881219432873135,23.613589351256675
+sample,pricing,exchange_traded,any of the four,20,20,2,10.0,2.7865893984153205,30.103820641179336
+sample,pricing,nav_listed_holdings,autocorrelation,48,48,1,2.0833333333333335,0.3687015979399688,10.899469137531158
+sample,pricing,nav_listed_holdings,factor_regression,48,48,0,0.0,0.0,7.41026511527422
+sample,pricing,nav_listed_holdings,near_zero,48,46,0,0.0,0.0,7.707617732978073
+sample,pricing,nav_listed_holdings,peer_anomaly,48,48,2,4.166666666666667,1.1501652078965612,13.975911147771471
+sample,pricing,nav_listed_holdings,any of the four,48,48,3,6.25,2.1482843131227227,16.83569766274222
+sample,dead vs live,dead/merged,autocorrelation,2,2,0,0.0,0.0,65.76280471103807
+sample,dead vs live,dead/merged,factor_regression,2,2,0,0.0,0.0,65.76280471103807
+sample,dead vs live,dead/merged,near_zero,2,1,0,0.0,0.0,79.34567085261071
+sample,dead vs live,dead/merged,peer_anomaly,2,2,1,50.0,9.452865480086615,90.54713451991339
+sample,dead vs live,dead/merged,any of the four,2,2,1,50.0,9.452865480086615,90.54713451991339
+sample,dead vs live,live,autocorrelation,78,78,4,5.128205128205129,2.0120686846503344,12.45685665405272
+sample,dead vs live,live,factor_regression,78,78,0,0.0,0.0,4.693945377411976
+sample,dead vs live,live,near_zero,78,77,1,1.2987012987012987,0.22961581721549496,6.996366845176145
+sample,dead vs live,live,peer_anomaly,78,78,5,6.410256410256411,2.7688907083923664,14.143779620633456
+sample,dead vs live,live,any of the four,78,78,8,10.256410256410255,5.289271527803498,18.954633772190636

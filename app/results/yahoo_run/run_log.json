@@ -1,0 +1,23 @@
+{
+ "mode": "yahoo",
+ "seed": 2026,
+ "versions": {
+  "python": "3.13.18",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "scikit_learn": "1.9.1",
+  "matplotlib": "3.11.2"
+ },
+ "engine_hashes": "match tests/engine_hashes.txt",
+ "parameters": {
+  "P_SCALE": 0.1,
+  "FLAG_P": 0.05,
+  "MIN_REF": 20,
+  "retuned": false
+ },
+ "data_received": "Yahoo Finance (see data/data_note.txt)",
+ "run_at_utc": "2026-11-13T18:22:40+00:00",
+ "n_numbers": 61
+}

@@ -1,0 +1,36 @@
+source,level,key,test,n_funds,n_tested,n_flagged,flag_pct,ci95_low,ci95_high
+yahoo,all funds,all,autocorrelation,40,40,0,0.0,0.0,8.762453925039232
+yahoo,all funds,all,factor_regression,40,40,0,0.0,0.0,8.762453925039232
+yahoo,all funds,all,near_zero,40,39,3,7.6923076923076925,2.650691407349569,20.32137312805527
+yahoo,all funds,all,peer_anomaly,40,40,0,0.0,0.0,8.762453925039232
+yahoo,all funds,all,any of the four,40,40,3,7.5,2.5835556771858226,19.864530159097523
+yahoo,group,bond x US,autocorrelation,14,14,0,0.0,0.0,21.531701192718142
+yahoo,group,bond x US,factor_regression,14,14,0,0.0,0.0,21.531701192718142
+yahoo,group,bond x US,near_zero,14,14,1,7.142857142857143,1.2721886112291636,31.469269553957812
+yahoo,group,bond x US,peer_anomaly,14,14,0,0.0,0.0,21.531701192718142
+yahoo,group,bond x US,any of the four,14,14,1,7.142857142857142,1.2721886112291636,31.469269553957812
+yahoo,group,equity x US,autocorrelation,16,16,0,0.0,0.0,19.361341827271993
+yahoo,group,equity x US,factor_regression,16,16,0,0.0,0.0,19.361341827271993
+yahoo,group,equity x US,near_zero,16,15,1,6.666666666666667,1.1866588606194854,29.81707755242399
+yahoo,group,equity x US,peer_anomaly,16,16,0,0.0,0.0,19.361341827271993
+yahoo,group,equity x US,any of the four,16,16,1,6.25,1.1119057308331208,28.32926836802987
+yahoo,group,multi-asset x US,autocorrelation,10,10,0,0.0,0.0,27.75401687666166
+yahoo,group,multi-asset x US,factor_regression,10,10,0,0.0,0.0,27.75401687666166
+yahoo,group,multi-asset x US,near_zero,10,10,1,10.0,1.7875749515721129,40.41563854975721
+yahoo,group,multi-asset x US,peer_anomaly,10,10,0,0.0,0.0,27.75401687666166
+yahoo,group,multi-asset x US,any of the four,10,10,1,10.0,1.7875749515721129,40.41563854975721
+yahoo,pricing,exchange_traded,autocorrelation,20,20,0,0.0,0.0,16.113012549493323
+yahoo,pricing,exchange_traded,factor_regression,20,20,0,0.0,0.0,16.113012549493323
+yahoo,pricing,exchange_traded,near_zero,20,19,2,10.526315789473685,2.9357941395096594,31.3945504948417
+yahoo,pricing,exchange_traded,peer_anomaly,20,20,0,0.0,0.0,16.113012549493323
+yahoo,pricing,exchange_traded,any of the four,20,20,2,10.0,2.7865893984153205,30.103820641179336
+yahoo,pricing,nav_listed_holdings,autocorrelation,20,20,0,0.0,0.0,16.113012549493323
+yahoo,pricing,nav_listed_holdings,factor_regression,20,20,0,0.0,0.0,16.113012549493323
+yahoo,pricing,nav_listed_holdings,near_zero,20,20,1,5.0,0.8881219432873135,23.613589351256675
+yahoo,pricing,nav_listed_holdings,peer_anomaly,20,20,0,0.0,0.0,16.113012549493323
+yahoo,pricing,nav_listed_holdings,any of the four,20,20,1,5.0,0.8881219432873135,23.613589351256675
+yahoo,dead vs live,live,autocorrelation,40,40,0,0.0,0.0,8.762453925039232
+yahoo,dead vs live,live,factor_regression,40,40,0,0.0,0.0,8.762453925039232
+yahoo,dead vs live,live,near_zero,40,39,3,7.6923076923076925,2.650691407349569,20.32137312805527
+yahoo,dead vs live,live,peer_anomaly,40,40,0,0.0,0.0,8.762453925039232
+yahoo,dead vs live,live,any of the four,40,40,3,7.5,2.5835556771858226,19.864530159097523

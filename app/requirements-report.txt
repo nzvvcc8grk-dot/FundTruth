@@ -1,0 +1,4 @@
+# only to rebuild the PDF report (build_report.py, export_report.py); also needs a LaTeX install (xelatex)
+nbformat>=5
+nbconvert>=7
+ipykernel>=6

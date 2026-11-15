@@ -1,0 +1,13 @@
+{
+ "source": "yahoo",
+ "received": "",
+ "version": "v1",
+ "reference_file": "reference_real_v1.csv",
+ "reference_label": "real funds v1 (Yahoo, n=40)",
+ "notes": [
+  "Degraded mode: public Yahoo Finance data, 40 US-listed funds, US factors only, no expense ratios, no dead funds (survivorship bias), pricing types proposed from fund type.",
+  "FundTruth data note (generated 2026-11-13)"
+ ],
+ "checksums": {},
+ "mode": "yahoo"
+}
